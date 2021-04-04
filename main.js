@@ -35,8 +35,9 @@ const resultData = createData({
 	count: 100	// 생성할 점 갯수
 })
 // 주피터 노트북에 붙여넣을 것
-console.log('x = [${resultData.xAry}]\ny = [${resultData.yAry}]')
+console.log(`x = [${resultData.xAry}]\ny = [${resultData.yAry}]`)
 	
+console.log(`----------------------------------------------`)
 // 플라스크 웹앱에 붙여넣을 것
 console.log(resultData.xAry.toString())
 console.log(resultData.yAry.toString())
